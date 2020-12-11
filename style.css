@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
+h1 {
+  font-family: "Merriweather Sans", sans serif;
+  font-size: 72px;
+  font-weight: ExtraBoldItalic;
+  word-spacing: 0.10em;
+  color: #6C6874;
+}
+body {
+  background-color: #F4B7A6;
+}
+.button1 {
+  background-color: #DA9B9C;
+  max-width: 500px;
+  padding: 18px 65px;
+  border: none;
+  border-radius: 20px;
+  margin:.5em 0; 
+  font-family: mulish, sans-serif;
+font-size: 16pt;
+color: #F7CFB6;
+font-weight: light;
+}
+.button1:hover{
+  background-color: #AD858D;
+  transition: all 1s ease .2s;
+}
+subhead {font-family: mulish, sans-serif;
+font-size: 16pt;
+color: #F7CFB6;
+font-weight: light;}
+h2{
+  font-family: mulish, sans-serif;
+  font-size:28pt;
+  color: #F7CFB6;
+  font-weight: regular;
+  padding-left: 45px;
+}
+#directory {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+}
+#intro {
+  background-color: #F4B7A6;
+  padding: 2em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.card {
+  width: 400px;
+  background-color: #DA9B9C;
+  border-color: #F5C3AE;
+  border: 10px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 3em;
+ height: fit-content;
+}
+p {font-family: prata, serif;
+  font-size:12pt;
+  font-weight: regular;
+margin: 10px; }
+#logo {
+  max-width: 289px;
+  max-height: 289px;
+}
